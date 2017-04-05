@@ -1,11 +1,12 @@
 # JoystickView
 
-[![CI Status](http://img.shields.io/travis/CatchZeng/JoystickView.svg?style=flat)](https://travis-ci.org/CatchZeng/JoystickView)
 [![Version](https://img.shields.io/cocoapods/v/JoystickView.svg?style=flat)](http://cocoapods.org/pods/JoystickView)
 [![License](https://img.shields.io/cocoapods/l/JoystickView.svg?style=flat)](http://cocoapods.org/pods/JoystickView)
 [![Platform](https://img.shields.io/cocoapods/p/JoystickView.svg?style=flat)](http://cocoapods.org/pods/JoystickView)
 
-support round,vertical,horizontal directions JoystickView
+support around,vertical,horizontal directions JoystickView
+
+![feature](https://raw.githubusercontent.com/CatchZeng/JoystickView/master/feature.png)
 
 
 ## Example
