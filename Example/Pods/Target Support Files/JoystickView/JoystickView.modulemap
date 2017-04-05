@@ -1,0 +1,6 @@
+framework module JoystickView {
+  umbrella header "JoystickView-umbrella.h"
+
+  export *
+  module * { export * }
+}

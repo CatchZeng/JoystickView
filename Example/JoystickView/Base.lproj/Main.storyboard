@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="JoystickView_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="24A-eG-Uoe" customClass="JoystickView" customModule="JoystickView">
+                                <rect key="frame" x="93" y="6.5" width="187.5" height="187.5"/>
+                                <subviews>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="joystick-car-bg" translatesAutoresizingMaskIntoConstraints="NO" id="2I8-g9-bpw">
+                                        <rect key="frame" x="0.0" y="45" width="187.5" height="97.5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="2I8-g9-bpw" secondAttribute="height" multiplier="274:143" id="GYG-kA-s60"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="joystick-thumb" translatesAutoresizingMaskIntoConstraints="NO" id="JLG-Kc-hfN">
+                                        <rect key="frame" x="56" y="55.5" width="75" height="75"/>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="2I8-g9-bpw" firstAttribute="width" secondItem="24A-eG-Uoe" secondAttribute="width" id="642-7S-E8i"/>
+                                    <constraint firstItem="JLG-Kc-hfN" firstAttribute="centerX" secondItem="24A-eG-Uoe" secondAttribute="centerX" id="DwA-Ct-d4K"/>
+                                    <constraint firstItem="JLG-Kc-hfN" firstAttribute="width" secondItem="24A-eG-Uoe" secondAttribute="width" multiplier="0.4" id="Jan-eJ-jFM"/>
+                                    <constraint firstItem="2I8-g9-bpw" firstAttribute="centerY" secondItem="24A-eG-Uoe" secondAttribute="centerY" id="QcR-Kd-Hyw"/>
+                                    <constraint firstAttribute="width" secondItem="24A-eG-Uoe" secondAttribute="height" multiplier="1:1" id="aRp-vR-dja"/>
+                                    <constraint firstItem="JLG-Kc-hfN" firstAttribute="centerY" secondItem="24A-eG-Uoe" secondAttribute="centerY" id="bso-9p-O0C"/>
+                                    <constraint firstItem="2I8-g9-bpw" firstAttribute="centerX" secondItem="24A-eG-Uoe" secondAttribute="centerX" id="p0A-IU-10O"/>
+                                    <constraint firstItem="JLG-Kc-hfN" firstAttribute="height" secondItem="24A-eG-Uoe" secondAttribute="height" multiplier="0.4" id="rKR-Iu-Bfd"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="joystickBg" destination="2I8-g9-bpw" id="SSw-Li-hcn"/>
+                                    <outlet property="joystickThumb" destination="JLG-Kc-hfN" id="Alb-Ek-fUt"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="F3N-9k-3UC" customClass="JoystickView" customModule="JoystickView">
+                                <rect key="frame" x="94" y="240" width="187.5" height="187.5"/>
+                                <subviews>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="joystick-base" translatesAutoresizingMaskIntoConstraints="NO" id="HIh-te-AUL">
+                                        <rect key="frame" x="-0.5" y="-0.5" width="187.5" height="187.5"/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="joystick-thumb" translatesAutoresizingMaskIntoConstraints="NO" id="Khf-XJ-5Dk">
+                                        <rect key="frame" x="56.5" y="56" width="75" height="75"/>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="HIh-te-AUL" firstAttribute="width" secondItem="F3N-9k-3UC" secondAttribute="width" id="2hm-B6-HHT"/>
+                                    <constraint firstItem="HIh-te-AUL" firstAttribute="centerX" secondItem="F3N-9k-3UC" secondAttribute="centerX" id="3ol-Sj-Qcc"/>
+                                    <constraint firstItem="HIh-te-AUL" firstAttribute="centerY" secondItem="F3N-9k-3UC" secondAttribute="centerY" id="9kq-wq-Xah"/>
+                                    <constraint firstItem="Khf-XJ-5Dk" firstAttribute="height" secondItem="F3N-9k-3UC" secondAttribute="height" multiplier="0.4" id="HF0-BF-uAH"/>
+                                    <constraint firstAttribute="width" secondItem="F3N-9k-3UC" secondAttribute="height" multiplier="1:1" id="IrH-XW-YMp"/>
+                                    <constraint firstItem="Khf-XJ-5Dk" firstAttribute="width" secondItem="F3N-9k-3UC" secondAttribute="width" multiplier="0.4" id="Nl0-hH-dwC"/>
+                                    <constraint firstItem="HIh-te-AUL" firstAttribute="height" secondItem="F3N-9k-3UC" secondAttribute="height" id="TxF-hY-nEi"/>
+                                    <constraint firstItem="Khf-XJ-5Dk" firstAttribute="centerY" secondItem="F3N-9k-3UC" secondAttribute="centerY" id="lnF-O2-rgk"/>
+                                    <constraint firstItem="Khf-XJ-5Dk" firstAttribute="centerX" secondItem="F3N-9k-3UC" secondAttribute="centerX" id="qNc-iH-lXY"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="joystickBg" destination="HIh-te-AUL" id="f7j-U9-bKt"/>
+                                    <outlet property="joystickThumb" destination="Khf-XJ-5Dk" id="est-Na-C4K"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hug-KD-zRN" customClass="JoystickView" customModule="JoystickView">
+                                <rect key="frame" x="93" y="440" width="187.5" height="187.5"/>
+                                <subviews>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="joystick-vertical-bg" translatesAutoresizingMaskIntoConstraints="NO" id="AD5-LR-do0">
+                                        <rect key="frame" x="45" y="0.0" width="96.5" height="187.5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="AD5-LR-do0" secondAttribute="height" multiplier="262:509" id="5Gb-A8-UBM"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="joystick-thumb" translatesAutoresizingMaskIntoConstraints="NO" id="EV1-cK-Kfm">
+                                        <rect key="frame" x="56.5" y="56" width="75" height="75"/>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="EV1-cK-Kfm" firstAttribute="centerX" secondItem="Hug-KD-zRN" secondAttribute="centerX" id="2lT-Xw-Y2w"/>
+                                    <constraint firstAttribute="width" secondItem="Hug-KD-zRN" secondAttribute="height" multiplier="1:1" id="3Oz-qa-j7j"/>
+                                    <constraint firstItem="EV1-cK-Kfm" firstAttribute="width" secondItem="Hug-KD-zRN" secondAttribute="width" multiplier="0.4" id="4zA-Cu-kqF"/>
+                                    <constraint firstItem="AD5-LR-do0" firstAttribute="height" secondItem="Hug-KD-zRN" secondAttribute="height" id="4zL-Zh-Woc"/>
+                                    <constraint firstItem="EV1-cK-Kfm" firstAttribute="centerY" secondItem="Hug-KD-zRN" secondAttribute="centerY" id="9aA-Vw-pOK"/>
+                                    <constraint firstItem="AD5-LR-do0" firstAttribute="centerY" secondItem="Hug-KD-zRN" secondAttribute="centerY" id="l7H-d7-PN5"/>
+                                    <constraint firstItem="EV1-cK-Kfm" firstAttribute="height" secondItem="Hug-KD-zRN" secondAttribute="height" multiplier="0.4" id="qGm-OK-NSW"/>
+                                    <constraint firstItem="AD5-LR-do0" firstAttribute="centerX" secondItem="Hug-KD-zRN" secondAttribute="centerX" id="yXj-AO-bNl"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="joystickBg" destination="AD5-LR-do0" id="sSm-F4-Vx2"/>
+                                    <outlet property="joystickThumb" destination="EV1-cK-Kfm" id="Pwm-ku-Vkl"/>
+                                </connections>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Hug-KD-zRN" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="3ji-UK-jKD"/>
+                            <constraint firstItem="Hug-KD-zRN" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" multiplier="1.6" id="IAI-Hf-cPw"/>
+                            <constraint firstItem="Hug-KD-zRN" firstAttribute="width" secondItem="kh9-bI-dsS" secondAttribute="width" multiplier="0.5" id="M86-Vm-Mb6"/>
+                            <constraint firstItem="F3N-9k-3UC" firstAttribute="width" secondItem="kh9-bI-dsS" secondAttribute="width" multiplier="0.5" id="WLP-UD-WHh"/>
+                            <constraint firstItem="F3N-9k-3UC" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="XYb-eh-mFU"/>
+                            <constraint firstItem="24A-eG-Uoe" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="kpS-9k-9hx"/>
+                            <constraint firstItem="24A-eG-Uoe" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" multiplier="0.3" id="njx-5p-a6X"/>
+                            <constraint firstItem="24A-eG-Uoe" firstAttribute="width" secondItem="kh9-bI-dsS" secondAttribute="width" multiplier="0.5" id="sv9-ke-8DR"/>
+                            <constraint firstItem="F3N-9k-3UC" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="wtM-JM-M5C"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="horizontalJoystick" destination="24A-eG-Uoe" id="V0N-wE-hFJ"/>
+                        <outlet property="verticalJoystick" destination="Hug-KD-zRN" id="fTO-Ky-Qk6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="joystick-base" width="204" height="204"/>
+        <image name="joystick-car-bg" width="274" height="143"/>
+        <image name="joystick-thumb" width="64" height="64"/>
+        <image name="joystick-vertical-bg" width="262" height="509"/>
+    </resources>
+</document>
