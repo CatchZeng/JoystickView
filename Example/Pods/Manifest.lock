@@ -1,5 +1,5 @@
 PODS:
-  - JoystickView (0.1.0)
+  - JoystickView (0.2.0)
 
 DEPENDENCIES:
   - JoystickView (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  JoystickView: 9cb275cddfe3e13c90232581be32457871fd5a79
+  JoystickView: 5897a6ea80b5314abe75ca70777c628ad4add44a
 
 PODFILE CHECKSUM: 53229c331b33054e36dd135add96eb271a7071a2
 

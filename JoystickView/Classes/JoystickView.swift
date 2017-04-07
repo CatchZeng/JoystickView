@@ -9,30 +9,42 @@
 import UIKit
 
 @objc public protocol JoystickViewDelegate: class {
-    //x,y[0.0-1.0]
-    func joystickViewDidMove(to x: Float, y: Float)
-    @objc optional func joystickViewDidEndMoving()
+    //x,y [0.0 - 1.0]
+    func joystickView(_ joystickView:JoystickView,didMoveto x: Float, y: Float, direction: JoystickMoveDriection)
+    @objc optional func joystickViewDidEndMoving(_ joystickView:JoystickView)
 }
 
-@objc public enum JoystickDirection: NSInteger {
+@objc public enum JoystickForm: NSInteger {
     case vertical
     case horizontal
     case around
 }
 
+@objc public enum JoystickMoveDriection: NSInteger {
+    case none
+    case up
+    case down
+    case left
+    case right
+    case diagonal
+}
+
 open class JoystickView: UIView {
-    @IBOutlet weak var joystickBg: UIView!
-    @IBOutlet weak var joystickThumb: UIView!
+    @IBOutlet public weak var joystickBg: UIView!
+    @IBOutlet public weak var joystickThumb: UIView!
     
     private var xValue: CGFloat = 0.0
     private var yValue: CGFloat = 0.0
     private var radius: CGFloat = 0.0
-    
     private var margin: CGFloat = 0.0
-    public weak var delegate: JoystickViewDelegate?
-    public var direction: JoystickDirection = .around
     
-    // MARK: Init
+    public weak var delegate: JoystickViewDelegate?
+    public var form: JoystickForm = .around
+    public var enable: Bool = true{
+        didSet{
+            self.isUserInteractionEnabled = enable
+        }
+    }
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -44,8 +56,6 @@ open class JoystickView: UIView {
         commonInit()
     }
     
-    // MARK: Touches
-    
     override open func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         handleFingerTouch(touches: touches)
     }
@@ -56,26 +66,30 @@ open class JoystickView: UIView {
     
     override open func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
         handleFingerTouch(touches: touches)
-        handleTouchEnded()
+        initJoystickCoordinate()
+        didMove()
+        delegate?.joystickViewDidEndMoving?(self)
     }
     
     override open func touchesCancelled(_ touches: Set<UITouch>, with event: UIEvent?) {
         handleFingerTouch(touches: touches)
-        handleTouchEnded()
+        initJoystickCoordinate()
+        
+        didMove()
+        delegate?.joystickViewDidEndMoving?(self)
     }
     
-    // MARK: Private Methods
-    
+    //MARK: Private Methods
     private func commonInit() {
         xValue = 0.0
         yValue = 0.0
         margin = 0.0
         radius = 0.0
-        direction = .around
+        form = .around
     }
     
     private func updateConstants() {
-        if direction == .vertical {
+        if form == .vertical {
             margin = joystickThumb.frame.height/2
             radius = (bounds.height - 2 * margin) * 0.5
         }
@@ -93,16 +107,10 @@ open class JoystickView: UIView {
         yValue = 0.0
     }
     
-    private func handleTouchEnded(){
-        initJoystickCoordinate()
-        delegate?.joystickViewDidEndMoving?()
-        delegate?.joystickViewDidMove(to: Float(xValue), y: Float(yValue))
-    }
-    
     private func handleFingerTouch(touches: Set<UITouch>) {
         
         if joystickBg == nil || joystickThumb == nil {
-            print("⚠️JoystickView: please check joystickBg and joystickThumb in xib or code")
+            print("⚠️JoystickView: joystickBg & joystickThumb can not be nil!")
             return;
         }
         
@@ -116,7 +124,7 @@ open class JoystickView: UIView {
             
             var r: CGFloat
             
-            switch direction {
+            switch form {
             case .vertical:
                 xValue = 0
                 r = fabs(yValue * radius)
@@ -153,7 +161,23 @@ open class JoystickView: UIView {
                 joystickThumb.frame = CGRect(origin: CGPoint.init(x: newX, y: newY), size: joystickThumb.frame.size)
             }
             
-            delegate?.joystickViewDidMove(to: Float(xValue), y: Float(yValue))
+            didMove()
         }
+    }
+    
+    private func didMove(){
+        var direction: JoystickMoveDriection = .none
+        
+        if (fabs(xValue) > fabs(yValue)) {
+            direction = xValue < 0 ? .left : .right
+            
+        }else if (fabs(xValue) == fabs(yValue)) {
+            direction = .diagonal
+            
+        }else{
+            direction = yValue < 0 ? .down : .up
+        }
+        
+        delegate?.joystickView(self, didMoveto: Float(xValue), y: Float(yValue), direction: direction)
     }
 }
