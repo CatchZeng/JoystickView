@@ -7,69 +7,98 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0D5B88E5E6C51E2D417F5482DC60AA82 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		4A901485F6E15E685B4C6B453C4DB3FF /* JoystickView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5902FCDE0537906A07BEEBCA7C9BF42F /* JoystickView.swift */; };
-		67FD6C4B4C79F9091E701F9943895B29 /* Pods-JoystickView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E7FAA2F25B2618C0C53373A8DD8D3A95 /* Pods-JoystickView_Example-dummy.m */; };
-		93FA9153DD2DAAD08BDF0A2347014D3F /* JoystickView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D9FBE7941542ED933BC1C7A6BC15241 /* JoystickView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		95373BCFCAC743EB7497F3E13FDA01E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		CF8A111D18321C9484E1DFEDCE47D784 /* JoystickView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6009B8859F8F98540FD0A7304AF0EDE7 /* JoystickView-dummy.m */; };
-		E83B05EAE4604DCE8DA642CD75ABEDDB /* Pods-JoystickView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F4938480FB8261F6894F771BAE759740 /* Pods-JoystickView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FA7F92279F309061E74A1B1BCA0741B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		54DDBFC3EAA1DB85872A236B0FF45E78 /* JoystickView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6203CFE325D23A670A9DC97300D98041 /* JoystickView-dummy.m */; };
+		5508BCA7327ED6CAE5FC20FAB628688B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		84A6938308C3876BDABF27C7DE07A7F5 /* Pods-JoystickView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A81D599E94FA3C6B31FDC6A5B2A046C7 /* Pods-JoystickView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BECEED22FBEBD602C045878519938676 /* Pods-JoystickView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EA337154866C1DAF17280D6A96451402 /* Pods-JoystickView_Example-dummy.m */; };
+		ED27A369FE7E36D2BF6A713A3C41461E /* JoystickView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9579C738058444E18888592FA51E1A7A /* JoystickView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F173D7AF34192CC0B534FAA3771EED4A /* JoystickView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034DC740994E39F701BA352F2C07D338 /* JoystickView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5956CD0EEE6DD7BE69F956BE3A3EC5B5 /* PBXContainerItemProxy */ = {
+		64F2E4525EF52AA6FE0D4B91B445C0D6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E209EA5E1BAA33B44B05EA4FE076B5C0;
+			remoteGlobalIDString = D8CDAF60F4F195F876C8A897EB848312;
 			remoteInfo = JoystickView;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		042E2249C17BA0A82711107CB4D99AA0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0FADBB78A4E822B65011888D20255B7B /* JoystickView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JoystickView-prefix.pch"; sourceTree = "<group>"; };
+		034DC740994E39F701BA352F2C07D338 /* JoystickView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JoystickView.swift; path = JoystickView/Classes/JoystickView.swift; sourceTree = "<group>"; };
+		099AFB81CD1C309E875E890C48F228A0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		1B66F268981417A87BAD470E936BF936 /* Pods_JoystickView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JoystickView_Example.framework; path = "Pods-JoystickView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		27AD3D54BC7FD42243BF1C7B7FF3980F /* Pods-JoystickView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JoystickView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		4D9FBE7941542ED933BC1C7A6BC15241 /* JoystickView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JoystickView-umbrella.h"; sourceTree = "<group>"; };
-		5861CC034D4599E3D286FF3D0CF96B76 /* Pods-JoystickView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JoystickView_Example-frameworks.sh"; sourceTree = "<group>"; };
-		5902FCDE0537906A07BEEBCA7C9BF42F /* JoystickView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JoystickView.swift; sourceTree = "<group>"; };
-		5C48926DE2664A3C2D1948010D81B260 /* JoystickView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = JoystickView.modulemap; sourceTree = "<group>"; };
-		6009B8859F8F98540FD0A7304AF0EDE7 /* JoystickView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JoystickView-dummy.m"; sourceTree = "<group>"; };
-		68ADE34D036E0767B3A5E0BB0C9E90FF /* Pods-JoystickView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JoystickView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		7DA8AA514521110865800C1690551EA1 /* Pods-JoystickView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JoystickView_Example-resources.sh"; sourceTree = "<group>"; };
+		2710F8FBBB88FACCAA36E24CE8ABA402 /* Pods-JoystickView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JoystickView_Example-resources.sh"; sourceTree = "<group>"; };
+		27853EEDCDA994749916741AB8383BE6 /* JoystickView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JoystickView.modulemap; sourceTree = "<group>"; };
+		3DF5E798F1E2EE803995345D34467493 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5CF7FE1E26F5F61424F210537D1534C3 /* JoystickView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JoystickView-prefix.pch"; sourceTree = "<group>"; };
+		613DA29A60DFF973CA5BEEC45A229A17 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6203CFE325D23A670A9DC97300D98041 /* JoystickView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JoystickView-dummy.m"; sourceTree = "<group>"; };
+		70D7768D3C0CFBB0EA89836D622282FD /* JoystickView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = JoystickView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A4663846FB5E8CF026FA5E482D29E74F /* Pods-JoystickView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-JoystickView_Example.modulemap"; sourceTree = "<group>"; };
-		BAF84574E7A27773AF45351D38C654D3 /* Pods-JoystickView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JoystickView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		BD34AE0DDFBDE351E0AFCFE8A8BEF5D4 /* JoystickView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JoystickView.xcconfig; sourceTree = "<group>"; };
-		C8559EF85614148DB5F1EC8D017BBEEB /* Pods-JoystickView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JoystickView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		CAEACD1D9D0842637393A43EEEB717A4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		E7FAA2F25B2618C0C53373A8DD8D3A95 /* Pods-JoystickView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JoystickView_Example-dummy.m"; sourceTree = "<group>"; };
+		9579C738058444E18888592FA51E1A7A /* JoystickView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JoystickView-umbrella.h"; sourceTree = "<group>"; };
+		994B7DA41346338605A8A827B8C51765 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		A2F5B6959411F9E34DCEF840A6E954A9 /* Pods-JoystickView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JoystickView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		A81D599E94FA3C6B31FDC6A5B2A046C7 /* Pods-JoystickView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JoystickView_Example-umbrella.h"; sourceTree = "<group>"; };
+		BB65BC1E63270A8C85576FF07B74978D /* Pods-JoystickView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JoystickView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C714FBD74BC8020B0FB0CDB8FE21EC38 /* Pods-JoystickView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JoystickView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		DBDB06BC7E28F6A667C6DCBFD10E81E0 /* Pods-JoystickView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JoystickView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		E24BD150CB13E046EC7C80BECE6EB1B2 /* Pods-JoystickView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JoystickView_Example.modulemap"; sourceTree = "<group>"; };
+		E512EE55D8C10108AC3FEF5EF57F811C /* JoystickView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JoystickView.xcconfig; sourceTree = "<group>"; };
+		EA337154866C1DAF17280D6A96451402 /* Pods-JoystickView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JoystickView_Example-dummy.m"; sourceTree = "<group>"; };
+		EB0F9D9379799A32D1308278AB681427 /* Pods-JoystickView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JoystickView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F0ABD29E7D9252A2F1F01A81D80DF03A /* JoystickView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JoystickView.framework; path = JoystickView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F4938480FB8261F6894F771BAE759740 /* Pods-JoystickView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JoystickView_Example-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1146090350AB739B8AE3319199DE6C01 /* Frameworks */ = {
+		0D55A2990CD9530C6B159316659FB749 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95373BCFCAC743EB7497F3E13FDA01E3 /* Foundation.framework in Frameworks */,
+				5508BCA7327ED6CAE5FC20FAB628688B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D7C3FB4A24E842DA5F5DD4751AD84836 /* Frameworks */ = {
+		DE274E934D0F45341AC0A40670D8E440 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D5B88E5E6C51E2D417F5482DC60AA82 /* Foundation.framework in Frameworks */,
+				3FA7F92279F309061E74A1B1BCA0741B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1BE6DEDAD09A41A1BAAB11E1C7D918B1 /* Pods-JoystickView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				613DA29A60DFF973CA5BEEC45A229A17 /* Info.plist */,
+				E24BD150CB13E046EC7C80BECE6EB1B2 /* Pods-JoystickView_Example.modulemap */,
+				BB65BC1E63270A8C85576FF07B74978D /* Pods-JoystickView_Example-acknowledgements.markdown */,
+				DBDB06BC7E28F6A667C6DCBFD10E81E0 /* Pods-JoystickView_Example-acknowledgements.plist */,
+				EA337154866C1DAF17280D6A96451402 /* Pods-JoystickView_Example-dummy.m */,
+				C714FBD74BC8020B0FB0CDB8FE21EC38 /* Pods-JoystickView_Example-frameworks.sh */,
+				2710F8FBBB88FACCAA36E24CE8ABA402 /* Pods-JoystickView_Example-resources.sh */,
+				A81D599E94FA3C6B31FDC6A5B2A046C7 /* Pods-JoystickView_Example-umbrella.h */,
+				A2F5B6959411F9E34DCEF840A6E954A9 /* Pods-JoystickView_Example.debug.xcconfig */,
+				EB0F9D9379799A32D1308278AB681427 /* Pods-JoystickView_Example.release.xcconfig */,
+			);
+			name = "Pods-JoystickView_Example";
+			path = "Target Support Files/Pods-JoystickView_Example";
+			sourceTree = "<group>";
+		};
+		2903A3B02D47406D23A4AD11984A0F06 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				98CBFD79CBA7C65B27C75B1CB5346148 /* JoystickView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		487FA8F7DA73EF6A452144A68EFF9FBA /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -79,156 +108,125 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		63D98E426FD208368035B35840EE094D /* Development Pods */ = {
+		5D7BA9154D14F39F6DB6C700E00C0890 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				7D4C0C12365754799D2BE9188CFC0785 /* JoystickView */,
+				70D7768D3C0CFBB0EA89836D622282FD /* JoystickView.podspec */,
+				099AFB81CD1C309E875E890C48F228A0 /* LICENSE */,
+				994B7DA41346338605A8A827B8C51765 /* README.md */,
 			);
-			name = "Development Pods";
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		5D8E2BB8970D2EEA3141C5907A1F2630 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3DF5E798F1E2EE803995345D34467493 /* Info.plist */,
+				27853EEDCDA994749916741AB8383BE6 /* JoystickView.modulemap */,
+				E512EE55D8C10108AC3FEF5EF57F811C /* JoystickView.xcconfig */,
+				6203CFE325D23A670A9DC97300D98041 /* JoystickView-dummy.m */,
+				5CF7FE1E26F5F61424F210537D1534C3 /* JoystickView-prefix.pch */,
+				9579C738058444E18888592FA51E1A7A /* JoystickView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JoystickView";
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		7525147D081312237A14E119F850E2E0 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				ADEB2C575669BF268475A7E0E19D0B72 /* Pods-JoystickView_Example */,
+				1BE6DEDAD09A41A1BAAB11E1C7D918B1 /* Pods-JoystickView_Example */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		7D4C0C12365754799D2BE9188CFC0785 /* JoystickView */ = {
-			isa = PBXGroup;
-			children = (
-				E3044F4502D98C7EA03EFECAF67EE0A4 /* JoystickView */,
-				C81021BABD867F055C577298C7B5D9D5 /* Support Files */,
-			);
-			name = JoystickView;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				63D98E426FD208368035B35840EE094D /* Development Pods */,
+				2903A3B02D47406D23A4AD11984A0F06 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				487FA8F7DA73EF6A452144A68EFF9FBA /* Products */,
 				7525147D081312237A14E119F850E2E0 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		9B19B9A666F090F76AC0A87228C6A7D0 /* Classes */ = {
+		98CBFD79CBA7C65B27C75B1CB5346148 /* JoystickView */ = {
 			isa = PBXGroup;
 			children = (
-				5902FCDE0537906A07BEEBCA7C9BF42F /* JoystickView.swift */,
+				034DC740994E39F701BA352F2C07D338 /* JoystickView.swift */,
+				5D7BA9154D14F39F6DB6C700E00C0890 /* Pod */,
+				5D8E2BB8970D2EEA3141C5907A1F2630 /* Support Files */,
 			);
-			name = Classes;
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		ADEB2C575669BF268475A7E0E19D0B72 /* Pods-JoystickView_Example */ = {
-			isa = PBXGroup;
-			children = (
-				CAEACD1D9D0842637393A43EEEB717A4 /* Info.plist */,
-				A4663846FB5E8CF026FA5E482D29E74F /* Pods-JoystickView_Example.modulemap */,
-				BAF84574E7A27773AF45351D38C654D3 /* Pods-JoystickView_Example-acknowledgements.markdown */,
-				27AD3D54BC7FD42243BF1C7B7FF3980F /* Pods-JoystickView_Example-acknowledgements.plist */,
-				E7FAA2F25B2618C0C53373A8DD8D3A95 /* Pods-JoystickView_Example-dummy.m */,
-				5861CC034D4599E3D286FF3D0CF96B76 /* Pods-JoystickView_Example-frameworks.sh */,
-				7DA8AA514521110865800C1690551EA1 /* Pods-JoystickView_Example-resources.sh */,
-				F4938480FB8261F6894F771BAE759740 /* Pods-JoystickView_Example-umbrella.h */,
-				68ADE34D036E0767B3A5E0BB0C9E90FF /* Pods-JoystickView_Example.debug.xcconfig */,
-				C8559EF85614148DB5F1EC8D017BBEEB /* Pods-JoystickView_Example.release.xcconfig */,
-			);
-			name = "Pods-JoystickView_Example";
-			path = "Target Support Files/Pods-JoystickView_Example";
+			name = JoystickView;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		C81021BABD867F055C577298C7B5D9D5 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				042E2249C17BA0A82711107CB4D99AA0 /* Info.plist */,
-				5C48926DE2664A3C2D1948010D81B260 /* JoystickView.modulemap */,
-				BD34AE0DDFBDE351E0AFCFE8A8BEF5D4 /* JoystickView.xcconfig */,
-				6009B8859F8F98540FD0A7304AF0EDE7 /* JoystickView-dummy.m */,
-				0FADBB78A4E822B65011888D20255B7B /* JoystickView-prefix.pch */,
-				4D9FBE7941542ED933BC1C7A6BC15241 /* JoystickView-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/JoystickView";
-			sourceTree = "<group>";
-		};
-		E3044F4502D98C7EA03EFECAF67EE0A4 /* JoystickView */ = {
-			isa = PBXGroup;
-			children = (
-				9B19B9A666F090F76AC0A87228C6A7D0 /* Classes */,
-			);
-			name = JoystickView;
-			path = JoystickView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		06016B2D4C8A2BD17404131C87C769A2 /* Headers */ = {
+		1E278D64E3D60D4241A1994DA1A6CFBF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93FA9153DD2DAAD08BDF0A2347014D3F /* JoystickView-umbrella.h in Headers */,
+				ED27A369FE7E36D2BF6A713A3C41461E /* JoystickView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3AB281606BE19DB65DE0908B3F7D3D02 /* Headers */ = {
+		555FEBC800BB2A077D7F842B17E4E5D3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E83B05EAE4604DCE8DA642CD75ABEDDB /* Pods-JoystickView_Example-umbrella.h in Headers */,
+				84A6938308C3876BDABF27C7DE07A7F5 /* Pods-JoystickView_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		9041A6116523B6F13DFD768D43EBC6AE /* Pods-JoystickView_Example */ = {
+		889F22D76E6A17B26C784AB613FCF6FC /* Pods-JoystickView_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 045BE8AF7E1181A937CAD6404103F744 /* Build configuration list for PBXNativeTarget "Pods-JoystickView_Example" */;
+			buildConfigurationList = E4C1490DC73BC39F12895B86899ECB1A /* Build configuration list for PBXNativeTarget "Pods-JoystickView_Example" */;
 			buildPhases = (
-				837CC9C1FCD4B053ED8E822F2F8BA339 /* Sources */,
-				D7C3FB4A24E842DA5F5DD4751AD84836 /* Frameworks */,
-				3AB281606BE19DB65DE0908B3F7D3D02 /* Headers */,
+				555FEBC800BB2A077D7F842B17E4E5D3 /* Headers */,
+				A2D360D018865E7CF6391DBD8611A19E /* Sources */,
+				DE274E934D0F45341AC0A40670D8E440 /* Frameworks */,
+				311E3504016D506DD1C29A47432B47D5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				59A7301022B89BC6734ABDD63354B4B3 /* PBXTargetDependency */,
+				77D706AE11B891D7FC6C4F49CEEC87B8 /* PBXTargetDependency */,
 			);
 			name = "Pods-JoystickView_Example";
 			productName = "Pods-JoystickView_Example";
 			productReference = 1B66F268981417A87BAD470E936BF936 /* Pods_JoystickView_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		E209EA5E1BAA33B44B05EA4FE076B5C0 /* JoystickView */ = {
+		D8CDAF60F4F195F876C8A897EB848312 /* JoystickView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8B5B7BE4AC16B0FE6861EBA49E4D55B3 /* Build configuration list for PBXNativeTarget "JoystickView" */;
+			buildConfigurationList = 6B5B99924595090FF79048418438CFEF /* Build configuration list for PBXNativeTarget "JoystickView" */;
 			buildPhases = (
-				032F8AE6156A1209B114EF6FA0430928 /* Sources */,
-				1146090350AB739B8AE3319199DE6C01 /* Frameworks */,
-				06016B2D4C8A2BD17404131C87C769A2 /* Headers */,
+				1E278D64E3D60D4241A1994DA1A6CFBF /* Headers */,
+				4BAD314B278C86B0A6E4003204E4BFCA /* Sources */,
+				0D55A2990CD9530C6B159316659FB749 /* Frameworks */,
+				AA6CB0EEC409E042052F32F864F7E26F /* Resources */,
 			);
 			buildRules = (
 			);
@@ -245,8 +243,8 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0700;
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -260,222 +258,276 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E209EA5E1BAA33B44B05EA4FE076B5C0 /* JoystickView */,
-				9041A6116523B6F13DFD768D43EBC6AE /* Pods-JoystickView_Example */,
+				D8CDAF60F4F195F876C8A897EB848312 /* JoystickView */,
+				889F22D76E6A17B26C784AB613FCF6FC /* Pods-JoystickView_Example */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXSourcesBuildPhase section */
-		032F8AE6156A1209B114EF6FA0430928 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
+/* Begin PBXResourcesBuildPhase section */
+		311E3504016D506DD1C29A47432B47D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF8A111D18321C9484E1DFEDCE47D784 /* JoystickView-dummy.m in Sources */,
-				4A901485F6E15E685B4C6B453C4DB3FF /* JoystickView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		837CC9C1FCD4B053ED8E822F2F8BA339 /* Sources */ = {
+		AA6CB0EEC409E042052F32F864F7E26F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4BAD314B278C86B0A6E4003204E4BFCA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67FD6C4B4C79F9091E701F9943895B29 /* Pods-JoystickView_Example-dummy.m in Sources */,
+				54DDBFC3EAA1DB85872A236B0FF45E78 /* JoystickView-dummy.m in Sources */,
+				F173D7AF34192CC0B534FAA3771EED4A /* JoystickView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2D360D018865E7CF6391DBD8611A19E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BECEED22FBEBD602C045878519938676 /* Pods-JoystickView_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		59A7301022B89BC6734ABDD63354B4B3 /* PBXTargetDependency */ = {
+		77D706AE11B891D7FC6C4F49CEEC87B8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = JoystickView;
-			target = E209EA5E1BAA33B44B05EA4FE076B5C0 /* JoystickView */;
-			targetProxy = 5956CD0EEE6DD7BE69F956BE3A3EC5B5 /* PBXContainerItemProxy */;
+			target = D8CDAF60F4F195F876C8A897EB848312 /* JoystickView */;
+			targetProxy = 64F2E4525EF52AA6FE0D4B91B445C0D6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		7F593B38AB15C4217544E47E97B6357A /* Release */ = {
+		556D7F81F403E512896B35B4F1AE3036 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C8559EF85614148DB5F1EC8D017BBEEB /* Pods-JoystickView_Example.release.xcconfig */;
+			baseConfigurationReference = E512EE55D8C10108AC3FEF5EF57F811C /* JoystickView.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-JoystickView_Example/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/JoystickView/JoystickView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JoystickView/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-JoystickView_Example/Pods-JoystickView_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_JoystickView_Example;
+				MODULEMAP_FILE = "Target Support Files/JoystickView/JoystickView.modulemap";
+				PRODUCT_MODULE_NAME = JoystickView;
+				PRODUCT_NAME = JoystickView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+		60DAF49CA7A9F362148D49C3C3123B2A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_DEBUG=1",
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		A620C64EB072D349EF7553B794905906 /* Release */ = {
+		B3A1D5FA8971A75392B820CB37030DE6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BD34AE0DDFBDE351E0AFCFE8A8BEF5D4 /* JoystickView.xcconfig */;
+			baseConfigurationReference = E512EE55D8C10108AC3FEF5EF57F811C /* JoystickView.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/JoystickView/JoystickView-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/JoystickView/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/JoystickView/JoystickView.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_MODULE_NAME = JoystickView;
 				PRODUCT_NAME = JoystickView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		A9D3EEE6DCCABDDAE1BA82919C571856 /* Debug */ = {
+		C4EAA84F44D044E108500A81C635F21E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 68ADE34D036E0767B3A5E0BB0C9E90FF /* Pods-JoystickView_Example.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		FE05B8AB1342AC8BA70797A3D3D24E93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2F5B6959411F9E34DCEF840A6E954A9 /* Pods-JoystickView_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-JoystickView_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-JoystickView_Example/Pods-JoystickView_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_JoystickView_Example;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -483,65 +535,68 @@
 			};
 			name = Debug;
 		};
-		EA0317F488565B07052BEB9351A98363 /* Debug */ = {
+		FF322FCE538DB737947257C61BC73EFF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BD34AE0DDFBDE351E0AFCFE8A8BEF5D4 /* JoystickView.xcconfig */;
+			baseConfigurationReference = EB0F9D9379799A32D1308278AB681427 /* Pods-JoystickView_Example.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/JoystickView/JoystickView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JoystickView/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-JoystickView_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JoystickView/JoystickView.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = JoystickView;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JoystickView_Example/Pods-JoystickView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		045BE8AF7E1181A937CAD6404103F744 /* Build configuration list for PBXNativeTarget "Pods-JoystickView_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A9D3EEE6DCCABDDAE1BA82919C571856 /* Debug */,
-				7F593B38AB15C4217544E47E97B6357A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
-				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+				60DAF49CA7A9F362148D49C3C3123B2A /* Debug */,
+				C4EAA84F44D044E108500A81C635F21E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8B5B7BE4AC16B0FE6861EBA49E4D55B3 /* Build configuration list for PBXNativeTarget "JoystickView" */ = {
+		6B5B99924595090FF79048418438CFEF /* Build configuration list for PBXNativeTarget "JoystickView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EA0317F488565B07052BEB9351A98363 /* Debug */,
-				A620C64EB072D349EF7553B794905906 /* Release */,
+				556D7F81F403E512896B35B4F1AE3036 /* Debug */,
+				B3A1D5FA8971A75392B820CB37030DE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4C1490DC73BC39F12895B86899ECB1A /* Build configuration list for PBXNativeTarget "Pods-JoystickView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE05B8AB1342AC8BA70797A3D3D24E93 /* Debug */,
+				FF322FCE538DB737947257C61BC73EFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

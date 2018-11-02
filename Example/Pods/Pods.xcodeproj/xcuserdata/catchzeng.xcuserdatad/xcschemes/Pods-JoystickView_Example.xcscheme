@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0700"
+   LastUpgradeVersion = "0930"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9041A6116523B6F13DFD768D43EBC6AE"
+               BlueprintIdentifier = "889F22D76E6A17B26C784AB613FCF6FC"
                BuildableName = "Pods_JoystickView_Example.framework"
                BlueprintName = "Pods-JoystickView_Example"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9041A6116523B6F13DFD768D43EBC6AE"
+            BlueprintIdentifier = "889F22D76E6A17B26C784AB613FCF6FC"
             BuildableName = "Pods_JoystickView_Example.framework"
             BlueprintName = "Pods-JoystickView_Example"
             ReferencedContainer = "container:Pods.xcodeproj">

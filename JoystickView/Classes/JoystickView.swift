@@ -8,19 +8,24 @@
 
 import UIKit
 
-@objc public protocol JoystickViewDelegate: class {
+public protocol JoystickViewDelegate: class {
     //x,y [0.0 - 1.0]
-    func joystickView(_ joystickView:JoystickView,didMoveto x: Float, y: Float, direction: JoystickMoveDriection)
-    @objc optional func joystickViewDidEndMoving(_ joystickView:JoystickView)
+    func joystickView(_ joystickView: JoystickView, didMoveto x: Float, y: Float, direction: JoystickMoveDriection)
+    func joystickViewDidEndMoving(_ joystickView: JoystickView)
 }
 
-@objc public enum JoystickForm: NSInteger {
+extension JoystickViewDelegate {
+    func joystickView(_ joystickView: JoystickView, didMoveto x: Float, y: Float, direction: JoystickMoveDriection) {}
+    func joystickViewDidEndMoving(_ joystickView: JoystickView) {}
+}
+
+public enum JoystickForm: NSInteger {
     case vertical
     case horizontal
     case around
 }
 
-@objc public enum JoystickMoveDriection: NSInteger {
+public enum JoystickMoveDriection: NSInteger {
     case none
     case up
     case down
@@ -68,7 +73,7 @@ open class JoystickView: UIView {
         handleFingerTouch(touches: touches)
         initJoystickCoordinate()
         didMove()
-        delegate?.joystickViewDidEndMoving?(self)
+        delegate?.joystickViewDidEndMoving(self)
     }
     
     override open func touchesCancelled(_ touches: Set<UITouch>, with event: UIEvent?) {
@@ -76,7 +81,7 @@ open class JoystickView: UIView {
         initJoystickCoordinate()
         
         didMove()
-        delegate?.joystickViewDidEndMoving?(self)
+        delegate?.joystickViewDidEndMoving(self)
     }
     
     //MARK: Private Methods
@@ -127,7 +132,7 @@ open class JoystickView: UIView {
             switch form {
             case .vertical:
                 xValue = 0
-                r = fabs(yValue * radius)
+                r = abs(yValue * radius)
                 if r >= radius {
                     xValue = 0
                     yValue = radius * (yValue / r)
@@ -138,7 +143,7 @@ open class JoystickView: UIView {
                 
             case .horizontal:
                 yValue = 0
-                r = fabs(xValue * radius)
+                r = abs(xValue * radius)
                 if r >= radius {
                     yValue = 0
                     xValue = radius * (xValue / r)
@@ -168,10 +173,10 @@ open class JoystickView: UIView {
     private func didMove(){
         var direction: JoystickMoveDriection = .none
         
-        if (fabs(xValue) > fabs(yValue)) {
+        if (abs(xValue) > abs(yValue)) {
             direction = xValue < 0 ? .left : .right
             
-        }else if (fabs(xValue) == fabs(yValue)) {
+        }else if (abs(xValue) == abs(yValue)) {
             direction = .diagonal
             
         }else{
